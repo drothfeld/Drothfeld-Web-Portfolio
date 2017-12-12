@@ -3,6 +3,9 @@ body, html {
     margin: 0;
 }
 
+/*                     */
+/* Footer/Headers      */
+/*                     */
 .footer-copyright {
   position: absolute;
   bottom: .5%;
@@ -12,6 +15,9 @@ body, html {
   color: white;
 }
 
+/*                     */
+/* Landing Page Images */
+/*                     */
 .background-image {
   background-image: url("Assets/landing-page.png");
   height: 100%;
@@ -19,7 +25,20 @@ body, html {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.cloud-image-wrapper {
+  position: relative;
+  left: 10%;
+  top: 30%;
+}
 
+.cloud-image {
+  height: 8%;
+  width: 8%;
+}
+
+/*                      */
+/* Landing Page Buttons */
+/*                      */
 .landing-button-wrapper {
   text-align: center;
 }
@@ -28,10 +47,10 @@ body, html {
   position: absolute;
   top: 50%;
   left: 40%;
-
-  -webkit-transition-duration: 0.7s; /* Safari */
-  transition-duration: 0.7s;
-
+  /* Safari Support */
+  -webkit-transition-duration: 0.5s;
+  /* Chrome Support */
+  transition-duration: 0.5s;
   background-color: white;
   border: none;
   border-radius: 8px;
