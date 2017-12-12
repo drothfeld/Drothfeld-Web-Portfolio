@@ -4,7 +4,7 @@ body, html {
 }
 
 .background-image {
-    background-image: url("landing-page.png");
+    background-image: url("Assets/landing-page.png");
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
