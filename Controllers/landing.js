@@ -38,3 +38,8 @@ function moveCloudGroup(pageWidth, id, speed, currentPosition) {
     elem.style.left = currentPosition + "px";
   },20);
 }
+
+// Switch to my work view
+function switchViewToMyWork(){
+  window.location.href = "my-work.html";
+}

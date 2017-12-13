@@ -3,6 +3,28 @@ body, html {
     width: 100%;
     margin: 0;
     overflow-x: hidden;
+    opacity: 1;
+    transition: 1s opacity;
+}
+
+/*                     */
+/* Navigation Menu     */
+/*                     */
+.nav-menu-wrapper {
+  position: absolute;
+  top: 1.5%;
+  left: 96%;
+  overflow: auto;
+}
+
+.nav-menu-icon {
+  height: 30px;
+  width: 35px;
+  opacity: .5;
+}
+
+.nav-menu-icon:focus {
+  outline: none;
 }
 
 /*                     */
@@ -20,14 +42,14 @@ body, html {
 
 .header-logo-wrapper {
   position: absolute;
-  top: 2%;
-  left: 96%;
+  top: 1%;
+  left: 1%;
   overflow: auto;
 }
 
 .header-logo-image {
-  height: 55px;
-  width: 40px;
+  height: 35px;
+  width: 25px;
 }
 
 /*                     */
@@ -42,6 +64,28 @@ body, html {
   font-size: 28px;
   font-family: 'Lato', sans-serif;
   max-width: 25em;
+}
+
+/*                     */
+/* My Work Page Images */
+/*                     */
+.background-image-page {
+  background-image: url("Assets/page-background.png");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section-separator {
+  position: absolute;
+  top: 5%;
+}
+
+.section-separator-white-line {
+  height: 2px;
+  width: 100%;
+  opacity: .35;
 }
 
 /*                     */
@@ -85,7 +129,7 @@ body, html {
 .landing-button {
   position: absolute;
   top: 50%;
-  left: 40%;
+  left: 42.5%;
   /* Safari Support */
   -webkit-transition-duration: 0.5s;
   /* Chrome Support */
@@ -99,6 +143,7 @@ body, html {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  font-family: 'Lato', sans-serif;
 }
 
 .landing-button:hover {
