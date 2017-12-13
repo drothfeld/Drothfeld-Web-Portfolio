@@ -28,12 +28,22 @@ body, html {
 .cloud-image-wrapper {
   position: relative;
   left: 10%;
-  top: 30%;
+  top: 10%;
 }
 
 .cloud-image {
   height: 8%;
   width: 8%;
+}
+
+.cloud-image-cluster {
+  height: 50%;
+  width: 50%;
+}
+
+.cloud-image-big {
+  height: 20%;
+  width: 20%;
 }
 
 /*                      */
