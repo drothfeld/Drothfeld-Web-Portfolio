@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
 
+  <!-- Script link -->
+  <script src="Controllers/navigation-menu.js"></script>
+
   <head>
     <!-- Stylesheet link -->
     <link rel="stylesheet" type="text/css" href="styles.css">
@@ -9,7 +12,7 @@
 
   <body>
     <div class="background-image-page animate-in">
-
+    <div id="main">
       <!-- Profile logo header -->
       <div class="header-logo-wrapper">
         <image class="header-logo-image" src="Assets/drothfeld-symbol.png"></image>
@@ -17,9 +20,16 @@
 
       <!-- Navigation Menu -->
       <div class="nav-menu-wrapper">
-        <input class="nav-menu-icon" type="image" src="Assets/nav-menu-icon.png"/>
+        <input id="openNav" class="nav-menu-icon" onclick="openNavMenu()" type="image" src="Assets/nav-menu-icon.png"/>
+      </div>
+      <div class="w3-sidebar w3-bar-block w3-card w3-animate-right" style="display:none" id="mySidebar">
+        <button class="w3-bar-item w3-button w3-large" onclick="closeNavMenu()">Close &times;</button>
+        <a href="#" class="w3-bar-item w3-button">Link 1</a>
+        <a href="#" class="w3-bar-item w3-button">Link 2</a>
+        <a href="#" class="w3-bar-item w3-button">Link 3</a>
       </div>
 
+      <!-- Header and Content separator -->
       <div class="section-separator">
         <image class="section-separator-white-line" src="Assets/white-line.png"></image>
       </div>
@@ -29,6 +39,7 @@
         &copy; Copyright 2017 dylanrothfeld.com
       </div>
     </div>
+  </div>
 
 
   </body>
