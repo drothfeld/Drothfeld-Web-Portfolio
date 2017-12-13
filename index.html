@@ -1,30 +1,42 @@
 <!DOCTYPE html>
 <html>
 
+  <!-- Script link -->
   <script src="Controllers/landing.js"></script>
 
   <head>
+    <!-- Stylesheet link -->
     <link rel="stylesheet" type="text/css" href="styles.css">
   </head>
 
   <body onload="moveClouds();">
     <div class="background-image">
-      <!-- <div class="footer-copyright">
+
+      <!-- Profile logo header -->
+      <div class="header-logo-wrapper">
+        <image class="header-logo-image" src="Assets/drothfeld-symbol.png"></image>
+      </div>
+
+      <!-- Copyright footer -->
+      <div class="footer-copyright">
         &copy; Copyright 2017 dylanrothfeld.com
-      </div> -->
+      </div>
+
+      <!-- Cloud Group 3: Single large -->
       <div class="cloud-image-wrapper" id=cloud-group-3>
         <image class="cloud-image-big" src="Assets/cloud.png"></image>
       </div>
+      <!-- Cloud Group 2: Cluster large -->
       <div class="cloud-image-wrapper" id=cloud-group-2>
         <image class="cloud-image-cluster" src="Assets/cloud-cluster.png"></image>
       </div>
+      <!-- Cloud Group 3: Single small -->
       <div class="cloud-image-wrapper" id=cloud-group-1>
         <image class="cloud-image" src="Assets/cloud.png"></image>
       </div>
-
-
     </div>
 
+    <!-- View work button -->
     <div class="landing-button-wrapper">
       <button class="landing-button">Software Development</button>
     </div>

@@ -13,6 +13,18 @@ body, html {
   font-size: 10px;
   font-weight: lighter;
   color: white;
+  opacity: 0.5;
+}
+
+.header-logo-wrapper {
+  position: absolute;
+  top: 1%;
+  left: 95%;
+}
+
+.header-logo-image {
+  height: 65px;
+  width: 50px;
 }
 
 /*                     */
