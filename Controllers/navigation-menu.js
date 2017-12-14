@@ -1,7 +1,7 @@
 // Navigation Menu
 function openNavMenu() {
-  document.getElementById("main").style.marginLeft = "75%";
-  document.getElementById("mySidebar").style.width = "25%";
+  document.getElementById("main").style.marginLeft = "82%";
+  document.getElementById("mySidebar").style.width = "18%";
   document.getElementById("mySidebar").style.display = "block";
   document.getElementById("openNav").style.display = 'none';
 }
