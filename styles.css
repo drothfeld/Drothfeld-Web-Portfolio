@@ -38,7 +38,11 @@ a {
 .nav-menu-icon {
   height: 25px;
   width: 30px;
-  opacity: .5;
+  opacity: 1;
+}
+
+.nav-menu-icon:hover {
+  opacity: .75;
 }
 
 .nav-menu-icon:focus {
