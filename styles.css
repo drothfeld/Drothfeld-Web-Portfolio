@@ -95,6 +95,15 @@ a {
   outline: none;
 }
 
+.bar-item-active .bar-item-active:before {
+  color: white !important;
+}
+
+.bar-item-active:before .bar-item-active:hover {
+  color: #54a3b1 !important;
+  background-color: white !important;
+}
+
 /*                     */
 /* Footer/Headers      */
 /*                     */
@@ -118,6 +127,31 @@ a {
 .header-logo-image {
   height: 40px;
   width: 40px;
+}
+
+.full-spin {
+  -webkit-animation: spin 2s ease;
+  -moz-animation: spin 2s ease;
+  animation: spin 2s ease;
+}
+
+@-moz-keyframes spin {
+  100% {
+    -moz-transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform:rotate(360deg);
+  }
 }
 
 /*                     */

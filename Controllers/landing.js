@@ -41,5 +41,5 @@ function moveCloudGroup(pageWidth, id, speed, currentPosition) {
 
 // Switch to my work view
 function switchViewToMyWork(){
-  window.location.href = "my-work.html";
+  window.location.href = "projects.html";
 }

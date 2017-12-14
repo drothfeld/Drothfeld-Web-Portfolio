@@ -15,7 +15,7 @@
     <div id="main">
       <!-- Profile logo header -->
       <div class="header-logo-wrapper">
-        <image class="header-logo-image" src="Assets/drothfeld-symbol.png"></image>
+        <image id="logoSymbol" class="header-logo-image" onclick="symbolSpin()" src="Assets/drothfeld-symbol.png"></image>
       </div>
 
       <!-- Navigation Menu -->
@@ -25,9 +25,9 @@
       <div class="w3-sidebar w3-bar-block w3-card w3-animate-right" style="display:none" id="mySidebar">
         <input class="bar-item-close" type="image" src="Assets/nav-close-button.png" onclick="closeNavMenu()"></input>
         <a href="index.html" class="w3-bar-item w3-button">HOME</a>
-        <a href="#" class="w3-bar-item w3-button">PROJECTS</a>
-        <a href="#" class="w3-bar-item w3-button">ABOUT</a>
-        <a href="#" class="w3-bar-item w3-button">CONTACT</a>
+        <a href="projects.html" class="w3-bar-item w3-button">PROJECTS</a>
+        <a href="about.html" class="w3-bar-item w3-button">ABOUT</a>
+        <a class="w3-bar-item w3-button bar-item-active"> > CONTACT</a>
         <hr>
         <div class="nav-bio-text-wrapper">
           Dylan Rothfeld is an IOS and Front-End developer based in the Bay Area.
