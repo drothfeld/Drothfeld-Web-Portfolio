@@ -21,6 +21,10 @@ hr {
   border: none;
 }
 
+a {
+  text-decoration: none;
+}
+
 /*                     */
 /* Navigation Menu     */
 /*                     */
@@ -44,6 +48,7 @@ hr {
 .bar-item-close {
   height: 18px;
   width: 18px;
+  opacity: .75;
   background-color: #54a3b1;
   outline: none;
   color: white;
@@ -53,6 +58,10 @@ hr {
   margin: 8px;
 }
 
+.bar-item-close:hover {
+  opacity: 1;
+}
+
 .nav-bio-text-wrapper {
   text-align: left;
   color: #e6e6e6;
@@ -60,6 +69,26 @@ hr {
   font-family: 'Lato', sans-serif;
   max-width: 25em;
   margin: 35px;
+}
+
+.nav-account-links-wrapper {
+  margin: 35px;
+}
+
+.nav-account-link-icon {
+  height: 25px;
+  width: 25px;
+  opacity: .75;
+  color: none;
+  border: 0px;
+}
+
+.nav-account-link-icon:hover {
+  opacity: 1;
+}
+
+.nav-account-link-icon:focus {
+  outline: none;
 }
 
 /*                     */
