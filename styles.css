@@ -42,13 +42,15 @@ hr {
 }
 
 .bar-item-close {
+  height: 18px;
+  width: 18px;
   background-color: #54a3b1;
   outline: none;
   color: white;
   font-size: 20px;
   float: right;
   border: 0px;
-  margin: 0px;
+  margin: 8px;
 }
 
 .nav-bio-text-wrapper {
@@ -112,7 +114,7 @@ hr {
 
 .section-separator {
   position: absolute;
-  top: 5%;
+  top: 4%;
 }
 
 .section-separator-white-line {
