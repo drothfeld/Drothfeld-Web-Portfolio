@@ -155,6 +155,45 @@ a {
 }
 
 /*                     */
+/* Project Information */
+/*                     */
+.project-listing-wrapper {
+  position: absolute;
+  left: 19%;
+  top: 20%;
+}
+
+.project-icon {
+  opacity: .75;
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  margin: 50px;
+}
+
+.project-icon:hover {
+  opacity: 1;
+}
+
+.project-icon-image:focus {
+  outline: none;
+}
+
+.project-icon-image {
+  max-width: 100%;
+  max-height: 100%;
+  outline-width: 1px;
+  border-color: black;
+  border-radius: 16px;
+}
+
+.project-info-wrapper {
+  position: absolute;
+  text-align: center;
+  top: 65%;
+}
+
+/*                     */
 /* Landing Page Text   */
 /*                     */
 .bio-text-wrapper {
