@@ -30,6 +30,10 @@ a {
   text-decoration: none;
 }
 
+ul {
+ list-style: none;
+}
+
 /*                     */
 /* Navigation Menu     */
 /*                     */
@@ -216,28 +220,28 @@ a {
   font-family: 'Lato', sans-serif;
 }
 
-#section1 {
+#nova {
   padding-top: 50px;
   height: 750px;
   color: #fff;
   background-color: #1E88E5;
 }
 
-#section2 {
+#pattern {
   padding-top: 50px;
   height: 750px;
   color: #fff;
   background-color: #673ab7;
 }
 
-#section3 {
+#nutrition-vision {
   padding-top: 50px;
   height: 750px;
   color: #fff;
   background-color: #ff9800;
 }
 
-#section4 {
+#drothfeld-cloud-portfolio {
   padding-top: 50px;
   height: 750px;
   color: #fff;
@@ -247,8 +251,29 @@ a {
 /*                        */
 /* Project Navigation Bar */
 /*                        */
+.project-nav {
+  position: fixed;
+  left: 93.5%;
+  top: 25%;
+}
 
+.project-nav-section {
+  margin-top: 50px;
+  height: 25px;
+  width: 25px;
+  opacity: 1;
+}
 
+.project-nav-section:hover {
+  margin-top: 50px;
+  height: 25px;
+  width: 25px;
+  opacity: .8;
+}
+
+.project-nav-section:focus {
+  outline: none;
+}
 /*                     */
 /* Landing Page Text   */
 /*                     */
