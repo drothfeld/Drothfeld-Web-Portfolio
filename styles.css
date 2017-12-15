@@ -10,6 +10,10 @@ body, html {
   transition: 1s opacity;
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
+
 hr {
   width: 72%;
   opacity: .6;
@@ -29,7 +33,7 @@ a {
 /* Navigation Menu     */
 /*                     */
 .nav-menu-wrapper {
-  position: absolute;
+  position: fixed;
   top: 1.5%;
   left: 96%;
   overflow: auto;
@@ -118,7 +122,7 @@ a {
 }
 
 .header-logo-wrapper {
-  position: absolute;
+  position: fixed;
   top: 1%;
   left: 1%;
   overflow: auto;
@@ -167,7 +171,7 @@ a {
   opacity: .75;
   width: 200px;
   height: 200px;
-  display: inline-block;
+  /*display: inline-block;*/
   margin: 50px;
 }
 
@@ -190,7 +194,25 @@ a {
 .project-info-wrapper {
   position: absolute;
   text-align: center;
-  top: 65%;
+  left: 24.5%;
+  top: 52%;
+}
+
+.project-info-title {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #e6e6e6;
+  font-size: 28px;
+  font-family: 'Lato', sans-serif;
+}
+
+.project-info-description {
+  opacity: .9;
+  max-width: 50em;
+  text-align: left;
+  background-color: #54a3b1;
+  color: white;
+  font-family: 'Lato', sans-serif;
 }
 
 /*                     */
@@ -208,7 +230,7 @@ a {
 }
 
 /*                     */
-/* My Work Page Images */
+/* Projects Images     */
 /*                     */
 .background-image-page {
   background-image: url("Assets/page-background.png");
