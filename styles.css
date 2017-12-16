@@ -253,8 +253,10 @@ ul {
 /*                        */
 .project-nav {
   position: fixed;
-  left: 93.5%;
-  top: 25%;
+  /*left: 93.5%;
+  top: 25%;*/
+  margin-left: 93.5%;
+  margin-top: 18%;
 }
 
 .project-nav-section {
@@ -301,7 +303,7 @@ ul {
 
 .section-separator {
   position: absolute;
-  top: 4%;
+  top: 5%;
 }
 
 .section-separator-white-line {
@@ -415,7 +417,8 @@ ul {
 }
 
 .w3-bar-block .w3-dropdown-hover,.w3-bar-block .w3-dropdown-click {
-  width:100%;
+  width: 100%;
+  float: right;
 }
 
 .w3-bar-block .w3-dropdown-hover .w3-dropdown-content,.w3-bar-block .w3-dropdown-click .w3-dropdown-content {
@@ -429,7 +432,7 @@ ul {
 }
 
 .w3-main,#main {
-  transition: margin-left .4s;
+  transition: margin-right .4s;
 }
 
 .w3-bar {
@@ -444,7 +447,7 @@ ul {
 
 .w3-bar .w3-bar-item {
   padding: 8px 16px;
-  float: left;
+  float: right;
   width: auto;
   border: none;
   outline: none;
@@ -453,7 +456,7 @@ ul {
 
 .w3-bar .w3-dropdown-hover,.w3-bar .w3-dropdown-click {
   position: static;
-  float: left;
+  float: right;
 }
 
 .w3-bar .w3-button{
@@ -480,7 +483,7 @@ ul {
 
 .w3-block {
   display: block;
-  width:100%;
+  width: 100%;
 }
 
 .w3-main {
@@ -509,6 +512,66 @@ ul {
 }
 
 @keyframes animateright {
+  from {
+    right: -300px;
+    opacity: 0;
+  } to {
+    right: 0;
+    opacity: 1;
+    }
+}
+
+.w3-animate-right-speed0 {
+  position: relative;
+  animation: animateright 0.5s;
+}
+
+@keyframes animaterightspeed0 {
+  from {
+    right: -300px;
+    opacity: 0;
+  } to {
+    right: 0;
+    opacity: 1;
+    }
+}
+
+.w3-animate-right-speed1 {
+  position: relative;
+  animation: animateright 0.8s;
+}
+
+@keyframes animaterightspeed1 {
+  from {
+    right: -300px;
+    opacity: 0;
+  } to {
+    right: 0;
+    opacity: 1;
+    }
+}
+
+.w3-animate-right-speed2 {
+  position: relative;
+  animation: animateright 1.1s;
+}
+
+@keyframes animaterightspeed2 {
+  from {
+    right: -300px;
+    opacity: 0;
+  } to {
+    right: 0;
+    opacity: 1;
+    }
+}
+
+.w3-animate-right-speed3 {
+  position: relative;
+  animation: animateright 1.4s;
+}
+
+@keyframes animaterightspeed3 {
   from {
     right: -300px;
     opacity: 0;

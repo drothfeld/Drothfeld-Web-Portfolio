@@ -14,29 +14,12 @@
 
   <body>
     <div class="background-image-page animate-in">
-    <div id="main">
-      <!-- Profile logo header -->
-      <div class="header-logo-wrapper">
-        <image id="logoSymbol" class="header-logo-image" onclick="symbolSpin()" src="Assets/drothfeld-symbol.png"></image>
-      </div>
-
-      <!-- Project List Navigation Bar -->
-      <div class="project-nav">
-            <div id="myNavbar">
-              <ul>
-                <li><a href="#nova"><image class="project-nav-section" type="image" src="Assets/project-nav-selection-icon.png"></image></a></li>
-                <li><a href="#pattern"><image class="project-nav-section" type="image" src="Assets/project-nav-selection-icon.png"></image></a></li>
-                <li><a href="#nutrition-vision"><image class="project-nav-section" type="image" src="Assets/project-nav-selection-icon.png"></image></a></li>
-                <li><a href="#drothfeld-cloud-portfolio"><image class="project-nav-section" type="image" src="Assets/project-nav-selection-icon.png"></image></a></li>
-              </ul>
-            </div>
-      </div>
 
       <!-- Navigation Menu -->
       <div class="nav-menu-wrapper">
         <input id="openNav" class="nav-menu-icon" onclick="openNavMenu()" type="image" src="Assets/nav-menu-icon.png"/>
       </div>
-      <div class="w3-sidebar w3-bar-block w3-card w3-animate-right" style="display:none" id="mySidebar">
+      <div class="w3-sidebar w3-bar-block w3-animate-right" style="display: none" id="mySidebar">
         <input class="bar-item-close" type="image" src="Assets/nav-close-button.png" onclick="closeNavMenu()"></input>
         <a href="index.html" class="w3-bar-item w3-button">HOME</a>
         <a class="w3-bar-item w3-button bar-item-active"> > PROJECTS</a>
@@ -64,6 +47,25 @@
           </a>
         </div>
       </div>
+
+    <div id="main">
+      <!-- Profile logo header -->
+      <div class="header-logo-wrapper">
+        <image id="logoSymbol" class="header-logo-image" onclick="symbolSpin()" src="Assets/drothfeld-symbol.png"></image>
+      </div>
+
+      <!-- Project List Navigation Bar -->
+      <div id="section-icons" class="project-nav">
+            <div id="myNavbar">
+              <ul>
+                <li><a href="#nova"><image class="project-nav-section w3-animate-right-speed0" type="image" src="Assets/project-nav-selection-icon.png"></image></a></li>
+                <li><a href="#pattern"><image class="project-nav-section w3-animate-right-speed1" type="image" src="Assets/project-nav-selection-icon.png"></image></a></li>
+                <li><a href="#nutrition-vision"><image class="project-nav-section w3-animate-right-speed2" type="image" src="Assets/project-nav-selection-icon.png"></image></a></li>
+                <li><a href="#drothfeld-cloud-portfolio"><image class="project-nav-section w3-animate-right-speed3" type="image" src="Assets/project-nav-selection-icon.png"></image></a></li>
+              </ul>
+            </div>
+      </div>
+
 
       <!-- Header and Content separator -->
       <div class="section-separator">
