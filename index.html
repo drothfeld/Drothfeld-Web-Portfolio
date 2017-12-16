@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html style="height: 100%">
 
   <!-- Script link -->
   <script src="Controllers/landing.js"></script>
 
   <head>
     <!-- Stylesheet link -->
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="main.css">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
   </head>
 
-  <body onload="moveClouds();">
+  <body style="height: 100%" onload="moveClouds();">
 
     <div class="background-image">
 
@@ -20,15 +20,15 @@
       </div>
 
       <!-- Cloud Group 3: Single large -->
-      <div class="cloud-image-wrapper" id=cloud-group-3>
+      <div class="cloud-image-wrapper no-select" id=cloud-group-3>
         <image class="cloud-image-big" src="Assets/cloud.png"></image>
       </div>
       <!-- Cloud Group 2: Cluster large -->
-      <div class="cloud-image-wrapper" id=cloud-group-2>
+      <div class="cloud-image-wrapper no-select" id=cloud-group-2>
         <image class="cloud-image-cluster" src="Assets/cloud-cluster.png"></image>
       </div>
       <!-- Cloud Group 3: Single small -->
-      <div class="cloud-image-wrapper" id=cloud-group-1>
+      <div class="cloud-image-wrapper no-select" id=cloud-group-1>
         <image class="cloud-image" src="Assets/cloud.png"></image>
       </div>
     </div>

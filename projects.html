@@ -3,12 +3,13 @@
 
   <!-- Script links -->
   <script src="Controllers/navigation-menu.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="Controllers/animations.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
   <head>
     <!-- Stylesheet link -->
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="main.css">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
   </head>
 
@@ -74,46 +75,36 @@
 
       <!-- Project Listing -->
       <div class="project-listing-wrapper">
+        <!-- Project Section Title -->
+        <div id="_title" class="container-fluid">
+          <div class="project-icon">
+          </div>
+        </div>
         <!-- Nova @productOps -->
-        <div id="nova" class="container-fluid">
+        <div id="nova" class="container-fluid project-section">
           <div class="project-icon">
             <input class="project-icon-image" type="image" src="Assets/project-nova-icon.png"/>
           </div>
         </div>
         <!-- Pattern @self -->
-        <div id="pattern" class="container-fluid">
+        <div id="pattern" class="container-fluid project-section">
           <div class="project-icon">
             <input class="project-icon-image" type="image" src="Assets/project-pattern-icon.png"/>
           </div>
         </div>
         <!-- Nutrition Vision @self -->
-        <div id="nutrition-vision" class="container-fluid">
+        <div id="nutrition-vision" class="container-fluid project-section">
           <div class="project-icon">
             <input class="project-icon-image" type="image" src="Assets/project-nutrition-vision-icon.png"/>
           </div>
         </div>
         <!-- drothfeld Portfolio Site @self -->
-        <div id="drothfeld-cloud-portfolio" class="container-fluid">
+        <div id="drothfeld-cloud-portfolio" class="container-fluid project-section">
           <div class="project-icon">
-            <input class="project-icon-image animated animate slideInLeft" type="image" src="Assets/project-drothfeld-cloud-portfolio-icon.png"/>
+            <input class="project-icon-image" type="image" src="Assets/project-drothfeld-cloud-portfolio-icon.png"/>
           </div>
         </div>
       </div>
-
-      <!-- Project Description -->
-      <!-- <div class="project-info-wrapper">
-        <div class="project-info-title">
-          Project Title
-        </div>
-        <div class="project-info-description">
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-          fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum."
-        </div>
-      </div> -->
 
       <!-- Copyright footer -->
       <div class="footer-copyright">
@@ -128,6 +119,7 @@
 </html>
 
 <script>
+
 // Smooth scrolling for project section components
 $(document).ready(function(){
   // Add scrollspy to <body>
@@ -152,9 +144,5 @@ $(document).ready(function(){
   });
 });
 
-// Update active navbar from scrollspy
-$(".nav a").on("click", function(){
-   $(".nav").find(".active").removeClass("active");
-   $(this).parent().addClass("active");
-});
+
 </script>
