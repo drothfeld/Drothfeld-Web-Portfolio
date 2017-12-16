@@ -568,6 +568,21 @@ ul {
     }
 }
 
+.w3-animate-bottom {
+  position: relative;
+  animation: animatebottom 1.20s;
+}
+
+@keyframes animatebottom {
+  from {
+    bottom: -300px;
+    opacity: 0;
+  } to {
+    bottom: 0;
+    opacity: 1;
+    }
+}
+
 .w3-animate-right-speed0 {
   position: relative;
   animation: animateright 0.5s;
