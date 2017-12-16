@@ -242,7 +242,7 @@ ul {
 
 .scroll-down-arrows {
   display: absolute;
-  margin-top: 510px;
+  margin-top: 730px;
 }
 
 .scroll-arrow {
@@ -324,9 +324,20 @@ ul {
   outline: none;
 }
 /*                     */
-/* Landing Page Text   */
+/*        Text         */
 /*                     */
 .bio-text-wrapper {
+  position: absolute;
+  text-align: center;
+  top: 38%;
+  left: 27%;
+  color: white;
+  font-size: 28px;
+  font-family: 'Lato', sans-serif;
+  max-width: 25em;
+}
+
+.project-page-title {
   position: absolute;
   text-align: center;
   top: 38%;
