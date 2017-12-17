@@ -33,6 +33,17 @@ hr {
   border: none;
 }
 
+hr.project-title {
+  margin-left: 75px;
+  width: 10%;
+  opacity: 1;
+  background-color: #00909C;
+  height: 2px;
+  outline: none;
+  padding: none;
+  border: none;
+}
+
 a {
   text-decoration: none;
 }
@@ -181,12 +192,11 @@ ul {
 }
 
 .project-icon {
-  opacity: .75;
-  width: 200px;
-  height: 200px;
+  opacity: 1;
+  width: 50px;
+  height: 50px;
   /*display: inline-block;*/
   margin-left: 65px;
-  margin-top: 30px;
 }
 
 .project-icon:hover {
@@ -207,42 +217,42 @@ ul {
 
 #_title {
   padding-top: 50px;
-  height: 800px;
+  height: 850px;
   color: #fff;
   background-color: none;
 }
 
 #nova {
   padding-top: 50px;
-  height: 450px;
+  height: 1000px;
   color: #fff;
-  background-color: #1E88E5;
+  background-color: #1B1B1B;
 }
 
 #pattern {
   padding-top: 50px;
-  height: 450px;
+  height: 1000px;
   color: #fff;
-  background-color: #673ab7;
+  background-color: #1B1B1B;
 }
 
 #nutrition-vision {
   padding-top: 50px;
   height: 450px;
   color: #fff;
-  background-color: #ff9800;
+  background-color: red;
 }
 
 #drothfeld-cloud-portfolio {
   padding-top: 50px;
   height: 450px;
   color: #fff;
-  background-color: #00bcd4;
+  background-color: #1B1B1B;
 }
 
 .scroll-down-arrows {
   display: absolute;
-  margin-top: 730px;
+  margin-top: 790px;
 }
 
 .scroll-arrow {
@@ -294,6 +304,131 @@ ul {
   transform-origin: center bottom;
 }
 
+.project-title {
+  position: relative;
+  color: #F2F2F2;
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 115px;
+  top: -375px;
+  font-family: 'Lato', sans-serif;
+}
+
+.project-description {
+  color: #B8B8B8;
+  margin-top: 25px;
+  font-size: 17px;
+  font-weight: 300;
+  font-family: serif;
+  max-width: 1125px;
+  letter-spacing: 1px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.technology-list {
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+  margin-left: -40px;
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+
+.technology-used {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #333333;
+  color: #6D6D6D;
+  border-radius: 4px;
+  font-size: 10px;
+  vertical-align: middle;
+  letter-spacing: 1px;
+  line-height: 30px;
+  text-align: center;
+  display: inline;
+}
+
+
+.project-live {
+  margin-left: 950px;
+  border: 2px solid #32cd32;
+  background-color: #1B1B1B;
+  color: #32cd32;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  height: 40px;
+  width: 6%;
+  border-radius: 4px;
+  letter-spacing: 4px;
+}
+
+.project-live:hover {
+  background-color: #32cd32;
+  color: white;
+}
+
+.project-live:focus {
+  outline: none;
+}
+
+.project-screenshots-pc {
+  position: relative;
+  margin-left: 90px;
+  margin-top: 35px;
+}
+
+.pc-img-lg {
+  margin-left: 30px;
+  position: relative;
+  height: 60%;
+  width: 60%;
+  z-index: 0;
+}
+
+.pc-img-md {
+  position: relative;
+  margin-left: 110px;
+  height: 50%;
+  width: 50%;
+  z-index: 1;
+  top: -400px;
+  left: 380px;
+  box-shadow: 0px 0px 2px 2px #1B1B1B;
+}
+
+.project-screenshots-mobile {
+  position: relative;
+  margin-left: 55px;
+  margin-top: -25px;
+  margin-bottom: 350px;
+}
+
+.mobile-img-layer00 {
+  position: relative;
+  display: inline;
+  height: 25%;
+  width: 25%;
+}
+
+.mobile-img-layer01 {
+  position: relative;
+  display: inline;
+  margin-left: 100px;
+  height: 25%;
+  width: 25%;
+}
+
+.mobile-img-layer02 {
+  position: relative;
+  display: inline;
+  margin-left: 100px;
+  height: 25%;
+  width: 25%;
+}
+
 /*                        */
 /* Project Navigation Bar */
 /*                        */
@@ -323,6 +458,7 @@ ul {
 .project-nav-section:focus {
   outline: none;
 }
+
 /*                     */
 /*        Text         */
 /*                     */

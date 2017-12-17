@@ -11,6 +11,7 @@
     <!-- Stylesheet link -->
     <link rel="stylesheet" type="text/css" href="main.css">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
   </head>
 
   <body>
@@ -69,9 +70,9 @@
 
 
       <!-- Header and Content separator -->
-      <div class="section-separator">
+      <!-- <div class="section-separator">
         <image class="section-separator-white-line" src="Assets/white-line.png"></image>
-      </div>
+      </div> -->
 
       <!-- Project Listing -->
       <div class="project-listing-wrapper">
@@ -81,26 +82,85 @@
             Scroll down (or use the navigator on the right) to view some projects I've been working on.
           </div>
           <!-- Scroll down interface arrows -->
-          <div class="scroll-down-arrows animated infinite bounce">
-            <div class="scroll-arrow w3-animate-bottom" id="myNavbar">
-              <a href="#nova"><image class="scroll-arrow-image" type="image" src="Assets/scroll-down-arrow.png"></image></a>
+          <div class="scroll-down-arrows w3-animate-bottom">
+            <div class="scroll-arrow" id="myNavbar">
+              <a href="#nova"><image class="scroll-arrow-image animated infinite bounce" type="image" src="Assets/scroll-down-arrow.png"></image></a>
             </div>
-            <div class="scroll-arrow w3-animate-bottom" id="myNavbar">
-              <a href="#nova"><image class="scroll-arrow-image" type="image" src="Assets/scroll-down-arrow.png"></image></a>
+            <div class="scroll-arrow" id="myNavbar">
+              <a href="#nova"><image class="scroll-arrow-image animated infinite bounce" type="image" src="Assets/scroll-down-arrow.png"></image></a>
             </div>
           </div>
         </div>
         <!-- Nova @productOps -->
         <div id="nova" class="container-fluid project-section">
-          <div class="project-icon">
+          <!-- <div class="project-icon">
             <input class="project-icon-image" type="image" src="Assets/project-nova-icon.png"/>
+          </div> -->
+          <div class="project-screenshots-pc">
+            <img class="pc-img-lg" src="Assets/nova-project-workflow.png">
+            <img class="pc-img-md" src="Assets/nova-analytics.png">
           </div>
+          <div class="project-title">
+            Nova
+            <button class="project-live" onclick="location.href='https://nova.cccco.edu'" target="_blank">LIVE</button>
+            <div class="project-description">
+              Nova is an angular web platform being developed for the councilor of California's community
+              colleges that allows users at community colleges all over California to submit
+              proposals for government funding for various educational programs. The Nova system
+              also includes data analysis and visualizations. I worked on this project
+              while employed as a software engineer at
+              <a href="http://www.productops.com/" target="_blank" style="color: #B8B8B8; ">productOps</a>
+              over the course of six months, but it is still under development to support functionality
+              for more funding types. The Nova system currently supports The Strong Workforce
+              Program's Local Share plans and Regional Share plans, as well as the Adult Education Block
+              Grant.
+            </div>
+            <div class="project-technologies">
+              <ul class="technology-list">
+                <li class="technology-used">Typescript</li>
+                <li class="technology-used">Javascript</li>
+                <li class="technology-used">HTML</li>
+                <li class="technology-used">CSS</li>
+                <li class="technology-used">Node.JS</li>
+                <li class="technology-used">Angular.JS</li>
+                <li class="technology-used">Looker API</li>
+                <li class="technology-used">SQL</li>
+              </ul>
+            </div>
+          </div>
+          <hr class="project-title">
         </div>
         <!-- Pattern @self -->
         <div id="pattern" class="container-fluid project-section">
-          <div class="project-icon">
+          <!-- <div class="project-icon">
             <input class="project-icon-image" type="image" src="Assets/project-pattern-icon.png"/>
+          </div> -->
+          <div class="project-screenshots-mobile">
+            <img class="mobile-img-layer00" src="Assets/pattern-highscores.png">
+            <img class="mobile-img-layer01" src="Assets/pattern-gameplay.png">
+            <img class="mobile-img-layer02" src="Assets/pattern-instructions.png">
           </div>
+          <div class="project-title">
+            Pattern
+            <button class="project-live" onclick="location.href='__'" target="_blank">DEMO</button>
+            <button class="project-live" onclick="location.href='__'" target="_blank">CODE</button>
+            <div class="project-description">
+              Pattern is a mobile arcade game for iOS that procedurally generate (1-3) X (1-3) patterns
+              of different shapes and color layouts. Of the nine generated choices, at least one will match
+              the target pattern. The user’s goal is to press on the generated pattern that matches the target
+              pattern within the allocated given time. Pressing a matching pattern will result in the user
+              receiving points whose value depends on how complicated the pattern was and how
+              quickly the user found the match. As the game progresses the patterns will become increasingly
+              more complex, and the amount of time the user has to pick the correct pattern will significantly decrease.
+            </div>
+            <div class="project-technologies">
+              <ul class="technology-list">
+                <li class="technology-used">Xcode</li>
+                <li class="technology-used">Swift</li>
+              </ul>
+            </div>
+          </div>
+          <hr class="project-title">
         </div>
         <!-- Nutrition Vision @self -->
         <div id="nutrition-vision" class="container-fluid project-section">
@@ -117,9 +177,9 @@
       </div>
 
       <!-- Copyright footer -->
-      <div class="footer-copyright">
+      <!-- <div class="footer-copyright">
         &copy; Copyright 2017 dylanrothfeld.com
-      </div>
+      </div> -->
     </div>
   </div>
 
