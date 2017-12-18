@@ -542,6 +542,7 @@ ul {
   text-align: center;
   top: 38%;
   left: 27%;
+  right: 27%;
   color: white;
   font-size: 28px;
   font-family: 'Lato', sans-serif;
@@ -622,7 +623,7 @@ ul {
 .landing-button {
   position: absolute;
   top: 50%;
-  left: 42.5%;
+  left: 42%;
   /* Safari Support */
   -webkit-transition-duration: 0.5s;
   /* Chrome Support */
