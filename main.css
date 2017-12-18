@@ -349,7 +349,6 @@ ul {
   display: inline;
 }
 
-
 .project-live {
   margin-left: 950px;
   border: 2px solid #32cd32;
@@ -363,6 +362,39 @@ ul {
   width: 6%;
   border-radius: 4px;
   letter-spacing: 4px;
+  display: inline;
+}
+
+.project-demo {
+  margin-left: 950px;
+  border: 2px solid #4d4dff;
+  background-color: #1B1B1B;
+  color: #4d4dff;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  height: 40px;
+  width: 6%;
+  border-radius: 4px;
+  letter-spacing: 4px;
+  display: inline;
+}
+
+.project-code {
+  margin-left: 950px;
+  border: 2px solid #FD1C03;
+  background-color: #1B1B1B;
+  color: #FD1C03;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  height: 40px;
+  width: 6%;
+  border-radius: 4px;
+  letter-spacing: 4px;
+  display: inline;
 }
 
 .project-live:hover {
@@ -370,7 +402,25 @@ ul {
   color: white;
 }
 
+.project-demo:hover {
+  background-color: #4d4dff;
+  color: white;
+}
+
+.project-code:hover {
+  background-color: #FD1C03;
+  color: white;
+}
+
 .project-live:focus {
+  outline: none;
+}
+
+.project-demo:focus {
+  outline: none;
+}
+
+.project-code:focus {
   outline: none;
 }
 
