@@ -238,14 +238,14 @@ ul {
 
 #nutrition-vision {
   padding-top: 50px;
-  height: 450px;
+  height: 1000px;
   color: #fff;
-  background-color: red;
+  background-color: #1B1B1B;
 }
 
 #drothfeld-cloud-portfolio {
   padding-top: 50px;
-  height: 450px;
+  height: 1000px;
   color: #fff;
   background-color: #1B1B1B;
 }
@@ -350,7 +350,8 @@ ul {
 }
 
 .project-live {
-  margin-left: 950px;
+  left: 79%;
+  position: absolute;
   border: 2px solid #32cd32;
   background-color: #1B1B1B;
   color: #32cd32;
@@ -366,7 +367,8 @@ ul {
 }
 
 .project-demo {
-  margin-left: 950px;
+  left: 72%;
+  position: absolute;
   border: 2px solid #4d4dff;
   background-color: #1B1B1B;
   color: #4d4dff;
@@ -382,7 +384,8 @@ ul {
 }
 
 .project-code {
-  margin-left: 950px;
+  left: 79%;
+  position: absolute;
   border: 2px solid #FD1C03;
   background-color: #1B1B1B;
   color: #FD1C03;
@@ -447,6 +450,14 @@ ul {
   top: -400px;
   left: 380px;
   box-shadow: 0px 0px 2px 2px #1B1B1B;
+}
+
+.pc-img-col-small {
+  position: relative;
+  height: 10.20%;
+  width: 10.20%;
+  left: 180px;
+  z-index: 1;
 }
 
 .project-screenshots-mobile {
