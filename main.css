@@ -115,6 +115,16 @@ ul {
   border: 0px;
 }
 
+.mail-icon {
+  height: 2%;
+  width: 2.5%;
+  padding-bottom: 20px;
+}
+
+.mail-icon:hover {
+  opacity: .7;
+}
+
 .nav-account-link-icon:hover {
   opacity: 1;
 }
@@ -136,13 +146,17 @@ ul {
 /* Footer/Headers      */
 /*                     */
 .footer-copyright {
-  position: fixed;
-  bottom: .5%;
-  left: .5%;
-  font-size: 10px;
-  font-weight: lighter;
+  background-image: url("Assets/footer-background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding-top: 95px;
+  padding-bottom: 40px;
   color: white;
-  opacity: .7;
+  font-size: 17px;
+  font-weight: 300;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .header-logo-wrapper {
