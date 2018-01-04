@@ -121,7 +121,18 @@ ul {
   padding-bottom: 20px;
 }
 
+.mail-icon-about {
+  position: relative;
+  bottom: -20px;
+  height: 20%;
+  width: 2.5%;
+}
+
 .mail-icon:hover {
+  opacity: .7;
+}
+
+.mail-icon-about:hover {
   opacity: .7;
 }
 
@@ -157,6 +168,27 @@ ul {
   font-size: 17px;
   font-weight: 300;
   font-family: 'Open Sans', sans-serif;
+}
+
+.footer-copyright-about {
+  background-image: url("Assets/footer-background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px;   /* Height of the footer */
+  color: white;
+  font-size: 17px;
+  font-weight: 300;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.copyright-text-about {
+  position: relative;
+  bottom: -25px;
 }
 
 .header-logo-wrapper {
@@ -201,14 +233,14 @@ ul {
 /* About               */
 /*                     */
 .profile-image-wrapper {
-  position: relative;
-  left: 10%;
-  top: 50%;
+  position: absolute;
+  left: 5%;
+  top: 18%;
 }
 
 .profile-image {
-  width: 21%;
-  height: 15%;
+  width: 36%;
+  border-radius: 50%;
 }
 
 /*                     */
