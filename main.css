@@ -198,6 +198,20 @@ ul {
 }
 
 /*                     */
+/* About               */
+/*                     */
+.profile-image-wrapper {
+  position: relative;
+  left: 10%;
+  top: 50%;
+}
+
+.profile-image {
+  width: 21%;
+  height: 15%;
+}
+
+/*                     */
 /* Project Information */
 /*                     */
 .project-listing-wrapper {
@@ -532,6 +546,12 @@ ul {
 
 .project-nav-section:focus {
   outline: none;
+}
+
+.project-nav-text {
+  position: fixed;
+  display: inline;
+  visibility: hidden;
 }
 
 /*                     */

@@ -12,12 +12,12 @@
     <!-- Stylesheet link -->
     <link rel="stylesheet" type="text/css" href="main.css">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
   </head>
 
   <body style="height: 100%">
 
     <div class="background-image-page animate-in">
-
 
       <!-- Navigation Menu -->
       <div class="nav-menu-wrapper">
@@ -26,8 +26,8 @@
       <div class="w3-sidebar w3-bar-block w3-animate-right" style="display: none" id="mySidebar">
         <input class="bar-item-close" type="image" src="Assets/nav-close-button.png" onclick="closeNavMenu()"></input>
         <a href="index.html" class="w3-bar-item w3-button">HOME</a>
-        <a class="w3-bar-item w3-button bar-item-active"> > PROJECTS</a>
-        <a href="about.html" class="w3-bar-item w3-button">ABOUT</a>
+        <a href="projects.html" class="w3-bar-item w3-button bar-item-active">PROJECTS</a>
+        <a href="about.html" class="w3-bar-item w3-button"> > ABOUT</a>
         <a href="contact.html" class="w3-bar-item w3-button">CONTACT</a>
         <hr>
         <div class="nav-bio-text-wrapper">
@@ -58,16 +58,23 @@
         <image id="logoSymbol" class="header-logo-image" onclick="symbolSpin()" src="Assets/drothfeld-symbol.png"></image>
       </div>
 
-      <!-- Header and Content separator -->
-      <div class="section-separator">
-        <image class="section-separator-white-line" src="Assets/white-line.png"></image>
+      <!-- About profile face image -->
+      <div class="profile-image-wrapper">
+        <image class="profile-image" src="Assets/about-profile.png"></image>
       </div>
 
       <!-- Copyright footer -->
       <div class="footer-copyright">
-        &copy; Copyright 2017 dylanrothfeld.com
+        <a href="mailto:drothfel@gmail.com">
+          <img class="mail-icon" src="Assets/mail-icon.png">
+        </a>
+        <div class="copyright-text">
+          &copy; Dylan Rothfeld 2017
+        </div>
       </div>
+
     </div>
+
   </div>
 
 
