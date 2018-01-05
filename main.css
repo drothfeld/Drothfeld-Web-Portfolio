@@ -243,6 +243,39 @@ ul {
   border-radius: 50%;
 }
 
+#resume-wrapper .icon-image-text {
+  visibility: hidden;
+  color: white;
+  margin-left: -200%;
+  margin-top: -35px;
+  font-size: 17px;
+  font-weight: 500;
+  font-family: serif;
+  max-width: 1125px;
+  letter-spacing: 1px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#resume-wrapper:hover .icon-image-text {
+  visibility: visible;
+}
+
+#resume-wrapper:hover .resume-icon {
+  opacity: .7;
+}
+
+.resume-wrapper {
+  position: absolute;
+  left: 96%;
+  top: 25%;
+}
+
+.resume-icon {
+  position: relative;
+  width: 40%;
+  height: 40%;
+}
+
 /*                     */
 /* Project Information */
 /*                     */
