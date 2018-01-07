@@ -264,6 +264,27 @@ ul {
   opacity: .7;
 }
 
+#timeline-wrapper .icon-image-text {
+  visibility: hidden;
+  color: white;
+  margin-left: -175%;
+  margin-top: -35px;
+  font-size: 17px;
+  font-weight: 500;
+  font-family: serif;
+  max-width: 1125px;
+  letter-spacing: 1px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#timeline-wrapper:hover .icon-image-text {
+  visibility: visible;
+}
+
+#timeline-wrapper:hover .timeline-icon {
+  opacity: .7;
+}
+
 .resume-wrapper {
   position: absolute;
   left: 96%;
@@ -271,6 +292,18 @@ ul {
 }
 
 .resume-icon {
+  position: relative;
+  width: 40%;
+  height: 40%;
+}
+
+.timeline-wrapper {
+  position: absolute;
+  left: 96%;
+  top: 35%;
+}
+
+.timeline-icon {
   position: relative;
   width: 40%;
   height: 40%;
