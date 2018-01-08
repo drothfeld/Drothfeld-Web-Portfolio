@@ -246,9 +246,10 @@ ul {
 #resume-wrapper .icon-image-text {
   visibility: hidden;
   color: white;
-  margin-left: -200%;
-  margin-top: -35px;
-  font-size: 17px;
+  text-align: center;
+  margin-top: -125px;
+  margin-left: -262px;
+  font-size: 25px;
   font-weight: 500;
   font-family: serif;
   max-width: 1125px;
@@ -261,15 +262,16 @@ ul {
 }
 
 #resume-wrapper:hover .resume-icon {
-  opacity: .7;
+  opacity: .25;
 }
 
 #timeline-wrapper .icon-image-text {
   visibility: hidden;
   color: white;
-  margin-left: -175%;
-  margin-top: -35px;
-  font-size: 17px;
+  text-align: center;
+  margin-top: -125px;
+  margin-left: -200px;
+  font-size: 25px;
   font-weight: 500;
   font-family: serif;
   max-width: 1125px;
@@ -282,13 +284,13 @@ ul {
 }
 
 #timeline-wrapper:hover .timeline-icon {
-  opacity: .7;
+  opacity: .25;
 }
 
 .resume-wrapper {
   position: absolute;
-  left: 96%;
-  top: 25%;
+  left: 15%;
+  top: 32%;
 }
 
 .resume-icon {
@@ -299,8 +301,8 @@ ul {
 
 .timeline-wrapper {
   position: absolute;
-  left: 96%;
-  top: 35%;
+  left: 47%;
+  top: 32%;
 }
 
 .timeline-icon {
