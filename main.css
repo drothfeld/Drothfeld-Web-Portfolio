@@ -425,6 +425,24 @@ ul {
   }
 }
 
+@keyframes pulse {
+  from {
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    transform: scale3d(1.1, 1.1, 1.1);
+  }
+
+  to {
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.pulse {
+  animation-name: pulse;
+}
+
 .bounce {
   animation-name: bounce;
   transform-origin: center bottom;
@@ -624,22 +642,14 @@ ul {
   /*left: 93.5%;
   top: 25%;*/
   margin-left: 93.5%;
-  margin-top: 18%;
+  margin-top: 20%;
   z-index: 1;
 }
 
 .project-nav-section {
-  margin-top: 50px;
   height: 25px;
   width: 25px;
   opacity: 1;
-}
-
-.project-nav-section:hover {
-  margin-top: 50px;
-  height: 25px;
-  width: 25px;
-  opacity: .8;
 }
 
 .project-nav-section:focus {
@@ -651,7 +661,7 @@ ul {
   visibility: hidden;
   color: white;
   margin-left: -70%;
-  margin-top: 52px;
+  margin-top: 2px;
   font-size: 14px;
   font-weight: 500;
   font-family: serif;
@@ -664,12 +674,16 @@ ul {
   visibility: visible;
 }
 
+#project-nova-li-wrapper:hover .project-nav-section {
+  opacity: .5;
+}
+
 #project-pattern-li-wrapper .project-nav-text {
   position: absolute;
   visibility: hidden;
   color: white;
   margin-left: -95%;
-  margin-top: 52px;
+  margin-top: 2px;
   font-size: 14px;
   font-weight: 500;
   font-family: serif;
@@ -682,12 +696,16 @@ ul {
   visibility: visible;
 }
 
+#project-pattern-li-wrapper:hover .project-nav-section {
+  opacity: .5;
+}
+
 #project-nv-li-wrapper .project-nav-text {
   position: absolute;
   visibility: hidden;
   color: white;
   margin-left: -115%;
-  margin-top: 42px;
+  margin-top: -10px;
   font-size: 14px;
   font-weight: 500;
   font-family: serif;
@@ -700,12 +718,16 @@ ul {
   visibility: visible;
 }
 
+#project-nv-li-wrapper:hover .project-nav-section {
+  opacity: .5;
+}
+
 #project-cloud-li-wrapper .project-nav-text {
   position: absolute;
   visibility: hidden;
   color: white;
   margin-left: -115%;
-  margin-top: 42px;
+  margin-top: -10px;
   font-size: 14px;
   font-weight: 500;
   font-family: serif;
@@ -716,6 +738,10 @@ ul {
 
 #project-cloud-li-wrapper:hover .project-nav-text {
   visibility: visible;
+}
+
+#project-cloud-li-wrapper:hover .project-nav-section {
+  opacity: .5;
 }
 
 /*                     */
