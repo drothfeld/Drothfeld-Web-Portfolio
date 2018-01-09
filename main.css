@@ -247,7 +247,7 @@ ul {
   visibility: hidden;
   color: white;
   text-align: center;
-  margin-top: -125px;
+  margin-top: -135px;
   margin-left: -262px;
   font-size: 25px;
   font-weight: 500;
@@ -269,7 +269,7 @@ ul {
   visibility: hidden;
   color: white;
   text-align: center;
-  margin-top: -125px;
+  margin-top: -135px;
   margin-left: -200px;
   font-size: 25px;
   font-weight: 500;
@@ -291,7 +291,7 @@ ul {
   visibility: hidden;
   color: white;
   text-align: center;
-  margin-top: -125px;
+  margin-top: -135px;
   margin-left: -225px;
   font-size: 25px;
   font-weight: 500;
@@ -312,7 +312,7 @@ ul {
 .resume-wrapper {
   position: absolute;
   left: 15%;
-  top: 32%;
+  top: 42%;
 }
 
 .resume-icon {
@@ -324,7 +324,7 @@ ul {
 .timeline-wrapper {
   position: absolute;
   left: 45%;
-  top: 32%;
+  top: 42%;
 }
 
 .timeline-icon {
@@ -336,7 +336,7 @@ ul {
 .aboutme-wrapper {
   position: absolute;
   left: 72%;
-  top: 32%;
+  top: 42%;
 }
 
 .aboutme-icon {
@@ -799,6 +799,17 @@ ul {
   position: absolute;
   text-align: center;
   top: 38%;
+  left: 27%;
+  color: white;
+  font-size: 28px;
+  font-family: 'Lato', sans-serif;
+  max-width: 25em;
+}
+
+.about-page-title {
+  position: absolute;
+  text-align: center;
+  top: 20%;
   left: 27%;
   color: white;
   font-size: 28px;
