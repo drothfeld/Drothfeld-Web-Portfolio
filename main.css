@@ -287,6 +287,28 @@ ul {
   opacity: .25;
 }
 
+#aboutme-wrapper .icon-image-text {
+  visibility: hidden;
+  color: white;
+  text-align: center;
+  margin-top: -125px;
+  margin-left: -225px;
+  font-size: 25px;
+  font-weight: 500;
+  font-family: serif;
+  max-width: 1125px;
+  letter-spacing: 1px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#aboutme-wrapper:hover .icon-image-text {
+  visibility: visible;
+}
+
+#aboutme-wrapper:hover .aboutme-icon {
+  opacity: .25;
+}
+
 .resume-wrapper {
   position: absolute;
   left: 15%;
@@ -301,7 +323,7 @@ ul {
 
 .timeline-wrapper {
   position: absolute;
-  left: 47%;
+  left: 45%;
   top: 32%;
 }
 
@@ -309,6 +331,18 @@ ul {
   position: relative;
   width: 40%;
   height: 40%;
+}
+
+.aboutme-wrapper {
+  position: absolute;
+  left: 72%;
+  top: 32%;
+}
+
+.aboutme-icon {
+  position: relative;
+  width: 42%;
+  height: 42%;
 }
 
 /*                     */
