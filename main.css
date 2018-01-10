@@ -345,6 +345,32 @@ ul {
   height: 42%;
 }
 
+.timeline-nodes-wrapper {
+  position: absolute;
+  left: 5%;
+  top: 32%;
+}
+
+.timeline-nodes-image {
+  position: relative;
+  width: 90%;
+  height: 90%;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  animation-name: fadeIn;
+}
+
 /*                     */
 /* Project Information */
 /*                     */
