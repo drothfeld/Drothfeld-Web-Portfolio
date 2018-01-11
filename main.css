@@ -363,14 +363,86 @@ ul {
 
 #tnode-00 .tnode {
   position: absolute;
-  left: 9.2%;
-  top: 55.5%;
+  left: 4.5%;
+  top: 50%;
 }
 
 #tnode-00:hover .tnode {
   animation-name: pulse;
   /* content/color change works for chrome only */
-  content: url("Assets/project-nav-selection-icon-selected.png");
+  /* content: url("Assets/project-nav-selection-icon-selected.png"); */
+}
+
+#tnode-01 .tnode {
+  position: absolute;
+  left: 19.65%;
+  top: 50%;
+}
+
+#tnode-01:hover .tnode {
+  animation-name: pulse;
+  /* content/color change works for chrome only */
+  /* content: url("Assets/project-nav-selection-icon-selected.png"); */
+}
+
+#tnode-02 .tnode {
+  position: absolute;
+  left: 33%;
+  top: 72.5%;
+}
+
+#tnode-02:hover .tnode {
+  animation-name: pulse;
+  /* content/color change works for chrome only */
+  /* content: url("Assets/project-nav-selection-icon-selected.png"); */
+}
+
+#tnode-03 .tnode {
+  position: absolute;
+  left: 47.5%;
+  top: 62%;
+}
+
+#tnode-03:hover .tnode {
+  animation-name: pulse;
+  /* content/color change works for chrome only */
+  /* content: url("Assets/project-nav-selection-icon-selected.png"); */
+}
+
+#tnode-04 .tnode {
+  position: absolute;
+  left: 52.15%;
+  top: 17.5%;
+}
+
+#tnode-04:hover .tnode {
+  animation-name: pulse;
+  /* content/color change works for chrome only */
+  /* content: url("Assets/project-nav-selection-icon-selected.png"); */
+}
+
+#tnode-05 .tnode {
+  position: absolute;
+  left: 67%;
+  top: 17%;
+}
+
+#tnode-05:hover .tnode {
+  animation-name: pulse;
+  /* content/color change works for chrome only */
+  /* content: url("Assets/project-nav-selection-icon-selected.png"); */
+}
+
+#tnode-06 .tnode {
+  position: absolute;
+  left: 81.75%;
+  top: 28%;
+}
+
+#tnode-06:hover .tnode {
+  animation-name: pulse;
+  /* content/color change works for chrome only */
+  /* content: url("Assets/project-nav-selection-icon-selected.png"); */
 }
 
 @keyframes fadeIn {
