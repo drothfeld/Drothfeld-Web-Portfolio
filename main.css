@@ -357,6 +357,22 @@ ul {
   height: 90%;
 }
 
+.tnode {
+  width: 5%;
+}
+
+#tnode-00 .tnode {
+  position: absolute;
+  left: 9.2%;
+  top: 55.5%;
+}
+
+#tnode-00:hover .tnode {
+  animation-name: pulse;
+  /* content/color change works for chrome only */
+  content: url("Assets/project-nav-selection-icon-selected.png");
+}
+
 @keyframes fadeIn {
   from {
     opacity: 0;
