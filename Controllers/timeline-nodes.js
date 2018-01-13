@@ -40,3 +40,99 @@ function tnode00Clicked() {
       tnodeImage.src = "Assets/project-nav-selection-icon-selected.png"
     }
 }
+// tnode-01
+function tnode01Clicked() {
+  var tnode = document.getElementById("tnode-01");
+  var tnodeImage = document.getElementById("tnode-01-image");
+    // Kill tnode if active
+    if (tnode.classList.contains("tnode-active")) {
+      tnode.classList.remove('tnode-active');
+      tnodeImage.src = "Assets/project-nav-selection-icon.png"
+    }
+    // Activate tnode if not active and close other tnodes
+    else {
+      clearTnodes();
+      tnode.classList.add("tnode-active");
+      tnodeImage.src = "Assets/project-nav-selection-icon-selected.png"
+    }
+}
+// tnode-02
+function tnode02Clicked() {
+  var tnode = document.getElementById("tnode-02");
+  var tnodeImage = document.getElementById("tnode-02-image");
+    // Kill tnode if active
+    if (tnode.classList.contains("tnode-active")) {
+      tnode.classList.remove('tnode-active');
+      tnodeImage.src = "Assets/project-nav-selection-icon.png"
+    }
+    // Activate tnode if not active and close other tnodes
+    else {
+      clearTnodes();
+      tnode.classList.add("tnode-active");
+      tnodeImage.src = "Assets/project-nav-selection-icon-selected.png"
+    }
+}
+// tnode-03
+function tnode03Clicked() {
+  var tnode = document.getElementById("tnode-03");
+  var tnodeImage = document.getElementById("tnode-03-image");
+    // Kill tnode if active
+    if (tnode.classList.contains("tnode-active")) {
+      tnode.classList.remove('tnode-active');
+      tnodeImage.src = "Assets/project-nav-selection-icon.png"
+    }
+    // Activate tnode if not active and close other tnodes
+    else {
+      clearTnodes();
+      tnode.classList.add("tnode-active");
+      tnodeImage.src = "Assets/project-nav-selection-icon-selected.png"
+    }
+}
+// tnode-04
+function tnode04Clicked() {
+  var tnode = document.getElementById("tnode-04");
+  var tnodeImage = document.getElementById("tnode-04-image");
+    // Kill tnode if active
+    if (tnode.classList.contains("tnode-active")) {
+      tnode.classList.remove('tnode-active');
+      tnodeImage.src = "Assets/project-nav-selection-icon.png"
+    }
+    // Activate tnode if not active and close other tnodes
+    else {
+      clearTnodes();
+      tnode.classList.add("tnode-active");
+      tnodeImage.src = "Assets/project-nav-selection-icon-selected.png"
+    }
+}
+// tnode-05
+function tnode05Clicked() {
+  var tnode = document.getElementById("tnode-05");
+  var tnodeImage = document.getElementById("tnode-05-image");
+    // Kill tnode if active
+    if (tnode.classList.contains("tnode-active")) {
+      tnode.classList.remove('tnode-active');
+      tnodeImage.src = "Assets/project-nav-selection-icon.png"
+    }
+    // Activate tnode if not active and close other tnodes
+    else {
+      clearTnodes();
+      tnode.classList.add("tnode-active");
+      tnodeImage.src = "Assets/project-nav-selection-icon-selected.png"
+    }
+}
+// tnode-06
+function tnode06Clicked() {
+  var tnode = document.getElementById("tnode-06");
+  var tnodeImage = document.getElementById("tnode-06-image");
+    // Kill tnode if active
+    if (tnode.classList.contains("tnode-active")) {
+      tnode.classList.remove('tnode-active');
+      tnodeImage.src = "Assets/project-nav-selection-icon.png"
+    }
+    // Activate tnode if not active and close other tnodes
+    else {
+      clearTnodes();
+      tnode.classList.add("tnode-active");
+      tnodeImage.src = "Assets/project-nav-selection-icon-selected.png"
+    }
+}
