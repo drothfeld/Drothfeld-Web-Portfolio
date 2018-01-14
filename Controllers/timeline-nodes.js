@@ -16,18 +16,30 @@ function clearTnodes() {
   var tnodeImage05 = document.getElementById("tnode-05-image");
   var tnodeImage06 = document.getElementById("tnode-06-image");
 
-  var tnodeList = [tnode00, tnode01, tnode02, tnode03, tnode04, tnode05, tnode06]
-  var tnodeImageList = [tnodeImage00, tnodeImage01, tnodeImage02, tnodeImage03, tnodeImage04, tnodeImage05, tnodeImage06]
+  var tnodeText00 = document.getElementById("tnode-00-text");
+  var tnodeText01 = document.getElementById("tnode-01-text");
+  var tnodeText02 = document.getElementById("tnode-02-text");
+  var tnodeText03 = document.getElementById("tnode-03-text");
+  var tnodeText04 = document.getElementById("tnode-04-text");
+  var tnodeText05 = document.getElementById("tnode-05-text");
+  var tnodeText06 = document.getElementById("tnode-06-text");
+
+  var tnodeList = [tnode00, tnode01, tnode02, tnode03, tnode04, tnode05, tnode06];
+  var tnodeImageList = [tnodeImage00, tnodeImage01, tnodeImage02, tnodeImage03, tnodeImage04, tnodeImage05, tnodeImage06];
+  var tnodeTextList = [tnodeText00, tnodeText01, tnodeText02, tnodeText03, tnodeText04, tnodeText05, tnodeText06];
 
   for (var tnode in tnodeList) {
     tnodeList[tnode].classList.remove('tnode-active');
     tnodeImageList[tnode].src = "Assets/project-nav-selection-icon.png";
+    tnodeTextList[tnode].visibility = "hidden";
+    tnodeTextList[tnode].color = "white";
   }
 }
 // tnode-00
 function tnode00Clicked() {
   var tnode = document.getElementById("tnode-00");
   var tnodeImage = document.getElementById("tnode-00-image");
+  var tnodeText = document.getElementById("tnode-00-text");
     // Kill tnode if active
     if (tnode.classList.contains("tnode-active")) {
       tnode.classList.remove('tnode-active');
@@ -44,6 +56,7 @@ function tnode00Clicked() {
 function tnode01Clicked() {
   var tnode = document.getElementById("tnode-01");
   var tnodeImage = document.getElementById("tnode-01-image");
+  var tnodeText = document.getElementById("tnode-01-text");
     // Kill tnode if active
     if (tnode.classList.contains("tnode-active")) {
       tnode.classList.remove('tnode-active');
@@ -60,6 +73,7 @@ function tnode01Clicked() {
 function tnode02Clicked() {
   var tnode = document.getElementById("tnode-02");
   var tnodeImage = document.getElementById("tnode-02-image");
+  var tnodeText = document.getElementById("tnode-02-text");
     // Kill tnode if active
     if (tnode.classList.contains("tnode-active")) {
       tnode.classList.remove('tnode-active');
@@ -76,6 +90,7 @@ function tnode02Clicked() {
 function tnode03Clicked() {
   var tnode = document.getElementById("tnode-03");
   var tnodeImage = document.getElementById("tnode-03-image");
+  var tnodeText = document.getElementById("tnode-03-text");
     // Kill tnode if active
     if (tnode.classList.contains("tnode-active")) {
       tnode.classList.remove('tnode-active');
@@ -92,6 +107,7 @@ function tnode03Clicked() {
 function tnode04Clicked() {
   var tnode = document.getElementById("tnode-04");
   var tnodeImage = document.getElementById("tnode-04-image");
+  var tnodeText = document.getElementById("tnode-04-text");
     // Kill tnode if active
     if (tnode.classList.contains("tnode-active")) {
       tnode.classList.remove('tnode-active');
@@ -108,6 +124,7 @@ function tnode04Clicked() {
 function tnode05Clicked() {
   var tnode = document.getElementById("tnode-05");
   var tnodeImage = document.getElementById("tnode-05-image");
+  var tnodeText = document.getElementById("tnode-05-text");
     // Kill tnode if active
     if (tnode.classList.contains("tnode-active")) {
       tnode.classList.remove('tnode-active');
@@ -124,6 +141,7 @@ function tnode05Clicked() {
 function tnode06Clicked() {
   var tnode = document.getElementById("tnode-06");
   var tnodeImage = document.getElementById("tnode-06-image");
+  var tnodeText = document.getElementById("tnode-06-text");
     // Kill tnode if active
     if (tnode.classList.contains("tnode-active")) {
       tnode.classList.remove('tnode-active');

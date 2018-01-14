@@ -381,8 +381,6 @@ ul {
 
 #tnode-01:hover .tnode {
   animation-name: pulse;
-  /* content/color change works for chrome only */
-  /* content: url("Assets/project-nav-selection-icon-selected.png"); */
 }
 
 #tnode-02 .tnode {
@@ -393,8 +391,6 @@ ul {
 
 #tnode-02:hover .tnode {
   animation-name: pulse;
-  /* content/color change works for chrome only */
-  /* content: url("Assets/project-nav-selection-icon-selected.png"); */
 }
 
 #tnode-03 .tnode {
@@ -405,8 +401,6 @@ ul {
 
 #tnode-03:hover .tnode {
   animation-name: pulse;
-  /* content/color change works for chrome only */
-  /* content: url("Assets/project-nav-selection-icon-selected.png"); */
 }
 
 #tnode-04 .tnode {
@@ -417,8 +411,6 @@ ul {
 
 #tnode-04:hover .tnode {
   animation-name: pulse;
-  /* content/color change works for chrome only */
-  /* content: url("Assets/project-nav-selection-icon-selected.png"); */
 }
 
 #tnode-05 .tnode {
@@ -429,8 +421,6 @@ ul {
 
 #tnode-05:hover .tnode {
   animation-name: pulse;
-  /* content/color change works for chrome only */
-  /* content: url("Assets/project-nav-selection-icon-selected.png"); */
 }
 
 #tnode-06 .tnode {
@@ -441,8 +431,23 @@ ul {
 
 #tnode-06:hover .tnode {
   animation-name: pulse;
-  /* content/color change works for chrome only */
-  /* content: url("Assets/project-nav-selection-icon-selected.png"); */
+}
+
+#tnode-00 .tnode00-year-text {
+  position: absolute;
+  visibility: hidden;
+  color: white;
+  text-align: center;
+  top: 65.5%;
+  left: 5.3%;
+  font-size: 1.50vw;
+  font-weight: 700;
+  font-family: serif;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#tnode-00:hover .tnode00-year-text {
+  visibility: visible;
 }
 
 @keyframes fadeIn {
