@@ -450,6 +450,108 @@ ul {
   visibility: visible;
 }
 
+#tnode-01 .tnode01-year-text {
+  position: absolute;
+  visibility: hidden;
+  color: white;
+  text-align: center;
+  top: 65.5%;
+  left: 20.25%;
+  font-size: 1.50vw;
+  font-weight: 700;
+  font-family: serif;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#tnode-01:hover .tnode01-year-text {
+  visibility: visible;
+}
+
+#tnode-02 .tnode02-year-text {
+  position: absolute;
+  visibility: hidden;
+  color: white;
+  text-align: center;
+  top: 88.4%;
+  left: 33.65%;
+  font-size: 1.50vw;
+  font-weight: 700;
+  font-family: serif;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#tnode-02:hover .tnode02-year-text {
+  visibility: visible;
+}
+
+#tnode-03 .tnode03-year-text {
+  position: absolute;
+  visibility: hidden;
+  color: white;
+  text-align: center;
+  top: 77.75%;
+  left: 48.25%;
+  font-size: 1.50vw;
+  font-weight: 700;
+  font-family: serif;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#tnode-03:hover .tnode03-year-text {
+  visibility: visible;
+}
+
+#tnode-04 .tnode04-year-text {
+  position: absolute;
+  visibility: hidden;
+  color: white;
+  text-align: center;
+  top: 10.7%;
+  left: 52.75%;
+  font-size: 1.50vw;
+  font-weight: 700;
+  font-family: serif;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#tnode-04:hover .tnode04-year-text {
+  visibility: visible;
+}
+
+#tnode-05 .tnode05-year-text {
+  position: absolute;
+  visibility: hidden;
+  color: white;
+  text-align: center;
+  top: 10.25%;
+  left: 67.75%;
+  font-size: 1.50vw;
+  font-weight: 700;
+  font-family: serif;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#tnode-05:hover .tnode05-year-text {
+  visibility: visible;
+}
+
+#tnode-06 .tnode06-year-text {
+  position: absolute;
+  visibility: hidden;
+  color: white;
+  text-align: center;
+  top: 21%;
+  left: 81.5%;
+  font-size: 1.50vw;
+  font-weight: 700;
+  font-family: serif;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#tnode-06:hover .tnode06-year-text {
+  visibility: visible;
+}
+
 @keyframes fadeIn {
   from {
     opacity: 0;

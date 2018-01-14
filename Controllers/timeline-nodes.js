@@ -31,8 +31,7 @@ function clearTnodes() {
   for (var tnode in tnodeList) {
     tnodeList[tnode].classList.remove('tnode-active');
     tnodeImageList[tnode].src = "Assets/project-nav-selection-icon.png";
-    tnodeTextList[tnode].visibility = "hidden";
-    tnodeTextList[tnode].color = "white";
+    // tnodeTextList[tnode].style.color = "white";
   }
 }
 // tnode-00
@@ -43,13 +42,15 @@ function tnode00Clicked() {
     // Kill tnode if active
     if (tnode.classList.contains("tnode-active")) {
       tnode.classList.remove('tnode-active');
-      tnodeImage.src = "Assets/project-nav-selection-icon.png"
+      tnodeImage.src = "Assets/project-nav-selection-icon.png";
     }
     // Activate tnode if not active and close other tnodes
     else {
       clearTnodes();
       tnode.classList.add("tnode-active");
-      tnodeImage.src = "Assets/project-nav-selection-icon-selected.png"
+      tnodeImage.src = "Assets/project-nav-selection-icon-selected.png";
+      // tnodeText.style.visibility = "visible";
+      // tnodeText.style.color = "red";
     }
 }
 // tnode-01
@@ -60,13 +61,13 @@ function tnode01Clicked() {
     // Kill tnode if active
     if (tnode.classList.contains("tnode-active")) {
       tnode.classList.remove('tnode-active');
-      tnodeImage.src = "Assets/project-nav-selection-icon.png"
+      tnodeImage.src = "Assets/project-nav-selection-icon.png";
     }
     // Activate tnode if not active and close other tnodes
     else {
       clearTnodes();
       tnode.classList.add("tnode-active");
-      tnodeImage.src = "Assets/project-nav-selection-icon-selected.png"
+      tnodeImage.src = "Assets/project-nav-selection-icon-selected.png";
     }
 }
 // tnode-02
@@ -77,13 +78,13 @@ function tnode02Clicked() {
     // Kill tnode if active
     if (tnode.classList.contains("tnode-active")) {
       tnode.classList.remove('tnode-active');
-      tnodeImage.src = "Assets/project-nav-selection-icon.png"
+      tnodeImage.src = "Assets/project-nav-selection-icon.png";
     }
     // Activate tnode if not active and close other tnodes
     else {
       clearTnodes();
       tnode.classList.add("tnode-active");
-      tnodeImage.src = "Assets/project-nav-selection-icon-selected.png"
+      tnodeImage.src = "Assets/project-nav-selection-icon-selected.png";
     }
 }
 // tnode-03
@@ -94,13 +95,13 @@ function tnode03Clicked() {
     // Kill tnode if active
     if (tnode.classList.contains("tnode-active")) {
       tnode.classList.remove('tnode-active');
-      tnodeImage.src = "Assets/project-nav-selection-icon.png"
+      tnodeImage.src = "Assets/project-nav-selection-icon.png";
     }
     // Activate tnode if not active and close other tnodes
     else {
       clearTnodes();
       tnode.classList.add("tnode-active");
-      tnodeImage.src = "Assets/project-nav-selection-icon-selected.png"
+      tnodeImage.src = "Assets/project-nav-selection-icon-selected.png";
     }
 }
 // tnode-04
@@ -111,13 +112,13 @@ function tnode04Clicked() {
     // Kill tnode if active
     if (tnode.classList.contains("tnode-active")) {
       tnode.classList.remove('tnode-active');
-      tnodeImage.src = "Assets/project-nav-selection-icon.png"
+      tnodeImage.src = "Assets/project-nav-selection-icon.png";
     }
     // Activate tnode if not active and close other tnodes
     else {
       clearTnodes();
       tnode.classList.add("tnode-active");
-      tnodeImage.src = "Assets/project-nav-selection-icon-selected.png"
+      tnodeImage.src = "Assets/project-nav-selection-icon-selected.png";
     }
 }
 // tnode-05
@@ -128,13 +129,13 @@ function tnode05Clicked() {
     // Kill tnode if active
     if (tnode.classList.contains("tnode-active")) {
       tnode.classList.remove('tnode-active');
-      tnodeImage.src = "Assets/project-nav-selection-icon.png"
+      tnodeImage.src = "Assets/project-nav-selection-icon.png";
     }
     // Activate tnode if not active and close other tnodes
     else {
       clearTnodes();
       tnode.classList.add("tnode-active");
-      tnodeImage.src = "Assets/project-nav-selection-icon-selected.png"
+      tnodeImage.src = "Assets/project-nav-selection-icon-selected.png";
     }
 }
 // tnode-06
@@ -145,12 +146,12 @@ function tnode06Clicked() {
     // Kill tnode if active
     if (tnode.classList.contains("tnode-active")) {
       tnode.classList.remove('tnode-active');
-      tnodeImage.src = "Assets/project-nav-selection-icon.png"
+      tnodeImage.src = "Assets/project-nav-selection-icon.png";
     }
     // Activate tnode if not active and close other tnodes
     else {
       clearTnodes();
       tnode.classList.add("tnode-active");
-      tnodeImage.src = "Assets/project-nav-selection-icon-selected.png"
+      tnodeImage.src = "Assets/project-nav-selection-icon-selected.png";
     }
 }
