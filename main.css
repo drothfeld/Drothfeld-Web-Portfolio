@@ -633,6 +633,13 @@ ul {
   background-color: #1B1B1B;
 }
 
+#fec {
+  padding-top: 50px;
+  height: 1000px;
+  color: #fff;
+  background-color: #1B1B1B;
+}
+
 .scroll-down-arrows {
   display: absolute;
   margin-top: 790px;
@@ -1370,6 +1377,11 @@ ul {
 .w3-animate-right-speed3 {
   position: relative;
   animation: animateright 1.4s;
+}
+
+.w3-animate-right-speed4 {
+  position: relative;
+  animation: animateright 1.7s;
 }
 
 .w3-right {
