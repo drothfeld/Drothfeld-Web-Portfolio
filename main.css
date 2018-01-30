@@ -1001,6 +1001,28 @@ ul {
   opacity: .5;
 }
 
+#project-fec-li-wrapper .project-nav-text {
+  position: absolute;
+  visibility: hidden;
+  color: white;
+  margin-left: -125%;
+  margin-top: -20px;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: serif;
+  max-width: 1125px;
+  letter-spacing: 1px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#project-fec-li-wrapper:hover .project-nav-text {
+  visibility: visible;
+}
+
+#project-fec-li-wrapper:hover .project-nav-section {
+  opacity: .5;
+}
+
 /*                     */
 /*        Text         */
 /*                     */
