@@ -633,7 +633,7 @@ ul {
   background-color: #1B1B1B;
 }
 
-#fec {
+#munch {
   padding-top: 50px;
   height: 1000px;
   color: #fff;
@@ -1008,12 +1008,12 @@ ul {
   opacity: .5;
 }
 
-#project-fec-li-wrapper .project-nav-text {
+#project-munch-li-wrapper .project-nav-text {
   position: absolute;
   visibility: hidden;
   color: white;
-  margin-left: -125%;
-  margin-top: -20px;
+  margin-top: 2px;
+  margin-left: -90%;
   font-size: 14px;
   font-weight: 500;
   font-family: serif;
@@ -1022,11 +1022,11 @@ ul {
   font-family: 'Open Sans', sans-serif;
 }
 
-#project-fec-li-wrapper:hover .project-nav-text {
+#project-munch-li-wrapper:hover .project-nav-text {
   visibility: visible;
 }
 
-#project-fec-li-wrapper:hover .project-nav-section {
+#project-munch-li-wrapper:hover .project-nav-section {
   opacity: .5;
 }
 
