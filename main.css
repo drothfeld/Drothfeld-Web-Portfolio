@@ -247,8 +247,8 @@ ul {
   visibility: hidden;
   color: white;
   text-align: center;
-  margin-top: -135px;
-  margin-left: -262px;
+  margin-left: 16px;
+  margin-top: 50px;
   font-size: 25px;
   font-weight: 500;
   font-family: serif;
@@ -269,8 +269,8 @@ ul {
   visibility: hidden;
   color: white;
   text-align: center;
-  margin-top: -135px;
-  margin-left: -200px;
+  margin-left: 25px;
+  margin-top: 50px;
   font-size: 25px;
   font-weight: 500;
   font-family: serif;
@@ -291,8 +291,8 @@ ul {
   visibility: hidden;
   color: white;
   text-align: center;
-  margin-top: -135px;
-  margin-left: -225px;
+  margin-left: 30px;
+  margin-top: 50px;
   font-size: 25px;
   font-weight: 500;
   font-family: serif;
@@ -316,9 +316,9 @@ ul {
 }
 
 .resume-icon {
-  position: relative;
-  width: 40%;
-  height: 40%;
+  position: fixed;
+  width: 11%;
+  height: 20%;
 }
 
 .timeline-wrapper {
@@ -328,9 +328,9 @@ ul {
 }
 
 .timeline-icon {
-  position: relative;
-  width: 40%;
-  height: 40%;
+  position: fixed;
+  width: 10%;
+  height: 20%;
 }
 
 .aboutme-wrapper {
@@ -340,9 +340,9 @@ ul {
 }
 
 .aboutme-icon {
-  position: relative;
-  width: 42%;
-  height: 42%;
+  position: fixed;
+  width: 12%;
+  height: 20%;
 }
 
 .timeline-nodes-wrapper {
