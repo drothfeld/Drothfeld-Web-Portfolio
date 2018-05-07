@@ -667,8 +667,8 @@ ul {
   visibility: hidden;
   position: absolute;
   left: 53%;
-  top: 47%;
-  height: 290px;
+  top: 52%;
+  height: 270px;
   width: 300px;
   background-color: white;
   border-radius: 20px;
@@ -719,6 +719,52 @@ ul {
 
 #tnode-04:hover .tnode04-year-text {
   visibility: visible;
+}
+
+#tnode-04:hover .timeline-node-04-popup {
+  visibility: visible;
+}
+
+.timeline-node-04-popup {
+  visibility: hidden;
+  position: absolute;
+  left: 55.5%;
+  top: 34%;
+  height: 325px;
+  width: 300px;
+  background-color: white;
+  border-radius: 20px;
+  z-index: -5;
+}
+
+#tnode-04 .timeline-node-title {
+  color: gray;
+  text-align: center;
+  margin-top: 8px;
+  font-weight: bold;
+  font-size: 14px;
+  font-family: serif;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#tnode-04 .timeline-node-subtitle {
+  color: gray;
+  text-align: center;
+  font-weight: bold;
+  font-family: serif;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#tnode-04 .timeline-node-body {
+  color: gray;
+  text-align: left;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 5px;
+  font-weight: lighter;
+  font-size: 12px;
+  font-family: serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 #tnode-05 .tnode05-year-text {
