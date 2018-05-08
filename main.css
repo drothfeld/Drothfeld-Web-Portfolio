@@ -1361,6 +1361,79 @@ ul {
   max-width: 25em;
 }
 
+.contact-page-title {
+  position: absolute;
+  text-align: center;
+  top: 20%;
+  left: 30%;
+  color: white;
+  font-size: 28px;
+  font-family: 'Lato', sans-serif;
+}
+
+/*                     */
+/* Contact Form        */
+/*                     */
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 0.5;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: white;
+    opacity: 0.5;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: white;
+    opacity: 0.5;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px none #ccc;
+    color: white;
+    font-size: 15px;
+    background-color: rgba(0,0,0,0.3);
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: none;
+}
+
+input[type=submit] {
+    background-color: #32cd32;
+    color: white;
+    margin-left: 970px;
+    border: none;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    height: 40px;
+    width: 6.7%;
+    letter-spacing: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #003300;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 200px;
+  padding-right: 200px;
+  font-family: 'Lato', sans-serif;
+}
+
+br.form-space {
+  line-height: 300px;
+}
+
 /*                     */
 /* Projects Images     */
 /*                     */

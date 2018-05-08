@@ -58,9 +58,32 @@
         <image id="logoSymbol" class="header-logo-image" onclick="symbolSpin()" src="Assets/drothfeld-symbol.png"></image>
       </div>
 
-      <!-- Header and Content separator -->
-      <div class="section-separator">
-        <image class="section-separator-white-line" src="Assets/white-line.png"></image>
+      <div class="contact-page-title">
+        Interested in my services or just want to chat?<br>
+        Send me a message!
+      </div>
+
+      <!-- Contact form -->
+      <div class="container">
+        <br class="form-space">
+        <form action="action_page.php">
+
+          <label for="name" style="font-size: 20px; color: white; font-weight: bold;">Name</label>
+          <input type="text" id="name" name="name" placeholder="Type name here">
+
+          <label for="reason" style="font-size: 20px; color: white; font-weight: bold;">Reason for Contacting</label>
+          <select id="reason" name="reason">
+            <option value="employment">Employment Opportunity</option>
+            <option value="question">Question</option>
+            <option value="other">Other</option>
+          </select>
+
+          <label for="subject" style="font-size: 20px; color: white; font-weight: bold;">Message Content</label>
+          <textarea id="subject" name="subject" placeholder="Type message content here" style="height:200px"></textarea>
+
+          <input type="submit" value="SEND">
+
+        </form>
       </div>
 
       <!-- Copyright footer -->
