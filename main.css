@@ -179,8 +179,8 @@ ul {
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
-  padding-top: 95px;
-  padding-bottom: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   color: white;
   font-size: 17px;
   font-weight: 300;
@@ -936,7 +936,8 @@ ul {
 
 .scroll-down-arrows {
   display: absolute;
-  margin-top: 790px;
+  padding-top: 790px;
+  padding-right: 150px;
 }
 
 .scroll-arrow {
@@ -1343,7 +1344,8 @@ ul {
   position: absolute;
   text-align: center;
   top: 38%;
-  left: 27%;
+  padding-left: 30%;
+  padding-right: 30%;
   color: white;
   font-size: 28px;
   font-family: 'Lato', sans-serif;
@@ -1354,7 +1356,8 @@ ul {
   position: absolute;
   text-align: center;
   top: 20%;
-  left: 27%;
+  padding-left: 30%;
+  padding-right: 30%;
   color: white;
   font-size: 28px;
   font-family: 'Lato', sans-serif;
@@ -1365,7 +1368,8 @@ ul {
   position: absolute;
   text-align: center;
   top: 20%;
-  left: 30%;
+  padding-left: 30%;
+  padding-right: 30%;
   color: white;
   font-size: 28px;
   font-family: 'Lato', sans-serif;
@@ -1403,21 +1407,27 @@ input[type=text], select, textarea {
     resize: none;
 }
 
+input[type=text]:focus, select, textarea {
+  outline: none;
+}
+
 input[type=submit] {
-    background-color: #32cd32;
+    background-color: #58a6b6;
     color: white;
-    margin-left: 970px;
+    margin-left: 91%;
     border: none;
     font-family: 'Lato', sans-serif;
     font-size: 16px;
     height: 40px;
-    width: 6.7%;
     letter-spacing: 4px;
-    cursor: pointer;
 }
 
 input[type=submit]:hover {
-  background-color: #003300;
+  opacity: .5;
+}
+
+input[type=submit]:focus {
+  outline: none;
 }
 
 /* Add a background color and some padding around the form */
@@ -1425,8 +1435,8 @@ input[type=submit]:hover {
   border-radius: 5px;
   padding-top: 20px;
   padding-bottom: 20px;
-  padding-left: 200px;
-  padding-right: 200px;
+  padding-left: 300px;
+  padding-right: 300px;
   font-family: 'Lato', sans-serif;
 }
 
@@ -1492,6 +1502,9 @@ br.form-space {
 /*                      */
 .landing-button-wrapper {
   text-align: center;
+  padding-top: 50%;
+  padding-left: 30%;
+  padding-right: 30%;
 }
 
 .landing-button {
