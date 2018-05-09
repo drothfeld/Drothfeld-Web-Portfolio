@@ -4,6 +4,7 @@
   <!-- Script links -->
   <script src="Controllers/navigation-menu.js"></script>
   <script src="Controllers/animations.js"></script>
+  <script src="Controllers/contact-form-send.js"></script>
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
@@ -66,22 +67,22 @@
       <!-- Contact form -->
       <div class="container animated fadeIn">
         <br class="form-space">
-        <form action="action_page.php">
+        <form>
 
           <label for="email" style="font-size: 20px; color: white; font-weight: bold;">Email Address</label>
           <input type="text" id="email" name="email" placeholder="Type email address here">
 
           <label for="reason" style="font-size: 20px; color: white; font-weight: bold;">Reason for Contacting</label>
           <select id="reason" name="reason">
-            <option value="employment">Employment Opportunity</option>
-            <option value="question">Question</option>
-            <option value="other">Other</option>
+            <option value="drothfeld: Employment Opportunity">Employment Opportunity</option>
+            <option value="drothfeld: Question">Question</option>
+            <option value="drothfeld: Other">Other</option>
           </select>
 
           <label for="subject" style="font-size: 20px; color: white; font-weight: bold;">Message Content</label>
           <textarea id="subject" name="subject" placeholder="Type message content here" style="height:100px"></textarea>
 
-          <input type="submit" value="SEND">
+          <input type="submit" value="S E N D" onclick="openEmailClient()">
 
         </form>
       </div>
