@@ -8,6 +8,7 @@ body, html {
   overflow-x: hidden;
   opacity: 1;
   transition: 1s opacity;
+  -webkit-text-size-adjust: none;
   /*position: relative;*/
 }
 
@@ -1329,13 +1330,13 @@ ul {
 /*        Text         */
 /*                     */
 .bio-text-wrapper {
-  position: absolute;
+  position: fixed;
   text-align: center;
   top: 38%;
-  left: 27%;
-  right: 27%;
+  left: 28vw;
+  right: 28vw;
   color: white;
-  font-size: 28px;
+  font-size: 3.5vmin;
   font-family: 'Lato', sans-serif;
   max-width: 25em;
 }
@@ -1500,16 +1501,15 @@ br.form-space {
 /* Landing Page Buttons */
 /*                      */
 .landing-button-wrapper {
-  text-align: center;
+  position: fixed;
   padding-top: 50%;
-  padding-left: 30%;
-  padding-right: 30%;
+  padding-left: 41.75vw;
+  padding-right: 41vw;
 }
 
 .landing-button {
-  position: absolute;
+  position: fixed;
   top: 50%;
-  left: 42%;
   /* Safari Support */
   -webkit-transition-duration: 0.5s;
   /* Chrome Support */
@@ -1518,11 +1518,9 @@ br.form-space {
   border: none;
   border-radius: 32px;
   color: #58a6b6;
-  padding: 15px 70px;
-  text-align: center;
+  padding: 2vmin 4vw;
   text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
+  font-size: 2.5vmin;
   font-family: 'Lato', sans-serif;
 }
 
