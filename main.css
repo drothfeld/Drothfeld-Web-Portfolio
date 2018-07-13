@@ -935,6 +935,13 @@ ul {
   background-color: #1B1B1B;
 }
 
+#smile-report {
+  padding-top: 50px;
+  height: 1000px;
+  color: #fff;
+  background-color: #1B1B1B;
+}
+
 .scroll-down-arrows {
   display: absolute;
   padding-top: 790px;
@@ -1202,7 +1209,7 @@ ul {
   /*left: 93.5%;
   top: 25%;*/
   margin-left: 93.5%;
-  margin-top: 20%;
+  margin-top: 15%;
   z-index: 1;
 }
 
@@ -1323,6 +1330,27 @@ ul {
 }
 
 #project-munch-li-wrapper:hover .project-nav-section {
+  opacity: .5;
+}
+
+#project-sr-li-wrapper .project-nav-text {
+  position: absolute;
+  visibility: hidden;
+  color: white;
+  margin-left: -90%;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: serif;
+  max-width: 1125px;
+  letter-spacing: 1px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#project-sr-li-wrapper:hover .project-nav-text {
+  visibility: visible;
+}
+
+#project-sr-li-wrapper:hover .project-nav-section {
   opacity: .5;
 }
 
@@ -1759,6 +1787,11 @@ br.form-space {
 .w3-animate-right-speed4 {
   position: relative;
   animation: animateright 1.7s;
+}
+
+.w3-animate-right-speed5 {
+  position: relative;
+  animation: animateright 2.0s;
 }
 
 .w3-right {
